@@ -67,7 +67,7 @@ export default function Home() {
             I'm a software engineer and a full-stack web developer.
           </Text>
         </Flex>
-        <Box width={"800px"} display={{md:"none",lg:"flex"}}>
+        <Box width={"800px"} display={{base:"none",md:"none",lg:"flex"}}>
 
           <Spline scene="https://prod.spline.design/F7ieufFriYnqDEPf/scene.splinecode" />
         </Box>
