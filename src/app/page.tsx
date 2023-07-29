@@ -72,7 +72,7 @@ export default function Home() {
             <Spline scene="https://prod.spline.design/F7ieufFriYnqDEPf/scene.splinecode" />
           </Box>
         </Flex>
-        <Flex padding={"50px 50px"} display={{ base: "none", md: "flex" }} color={"white"} flexDir={"row-reverse"}>
+        <Flex padding={"50px"} display={{ base: "none", md: "flex" }} color={"white"} flexDir={"row-reverse"}>
          <Image src="/stars.png" width={70} height={70} alt={''} />
 
           <Text fontSize={{ base: "24px", md: "36px", lg: "48px" }} >
