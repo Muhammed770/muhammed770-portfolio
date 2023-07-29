@@ -82,7 +82,7 @@ export default function Home() {
         <Flex padding={"0px 20px"} display={{ base: "none", md: "flex" }} justifyContent={"space-between"} position={"absolute"} bottom={"5vh"} color={"#A5A5A5"}>
           <Text fontSize={{ base: "12px", md: "18px", lg: "24px" }} >
             You can find me on{' '}
-            <a href="https://twitter.com/muhammed770" target="_blank" className="text-blue-600">
+            <a href="https://twitter.com/0xmuhammed770" target="_blank" className="text-blue-600">
               Twitter
             </a>
             ,{' '}
