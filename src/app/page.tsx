@@ -56,22 +56,51 @@ export default function Home() {
     //   </a>
     // </main>
     <>
-      <Flex height={"100dvh"} padding={"20px 0 20px 20px"} position={"relative"} overflow={"hidden"} bgColor={"black"}>
+      <Flex height={`calc(100dvh - 59px)`} padding={"20px 0 20px 0px"} position={"relative"} flexDir={"column"} overflow={"hidden"} bgColor={"black"}>
+        <Flex flexDir={{ base: "column", md: "column", lg: "row" }} justifyContent={"space-around"}>
+          <Flex flexDir={"column"} alignContent={"center"} maxW={"857px"} padding={"0px 20px"}>
 
-        <Flex flexDir={"column"} alignContent={"center"} width={{ lg: "857px" }} maxW={"90wv"} >
+            <Heading fontSize={{ base: "60px", md: "85px", lg: "98px" }} fontWeight={"bold"} color={"white"} >
+              Hi, I'm Muhammed
+            </Heading>
+            <Text fontSize={{ base: "24px", md: "36px", lg: "48px" }} color={"#A5A5A5"}>
+              I'm a software engineer and a full-stack web developer.
+            </Text>
+          </Flex>
+          <Box width={{ base: "100vw", lg: "800px" }} height={{ base: "500px" }}>
 
-          <Heading fontSize={{ base: "68px", md: "85px", lg: "98px" }} fontWeight={"bold"} color={"white"} >
-            Hi, I'm Muhammed
-          </Heading>
-          <Text fontSize={{ base: "24px", md: "36px", lg: "48px" }} color={"#A5A5A5"}>
-            I'm a software engineer and a full-stack web developer.
+            <Spline scene="https://prod.spline.design/F7ieufFriYnqDEPf/scene.splinecode" />
+          </Box>
+        </Flex>
+        <Flex padding={"50px 50px"} display={{ base: "none", md: "flex" }} color={"white"} flexDir={"row-reverse"}>
+         <Image src="/stars.png" width={70} height={70} alt={''} />
+
+          <Text fontSize={{ base: "24px", md: "36px", lg: "48px" }} >
+            see my latest projects
           </Text>
         </Flex>
-        <Box width={"800px"} display={{base:"none",md:"none",lg:"flex"}}>
+        <Flex padding={"0px 20px"} display={{ base: "none", md: "flex" }} justifyContent={"space-between"} position={"absolute"} bottom={"5vh"} color={"#A5A5A5"}>
+          <Text fontSize={{ base: "12px", md: "18px", lg: "24px" }} >
+            You can find me on{' '}
+            <a href="https://twitter.com/muhammed770" target="_blank" className="text-blue-600">
+              Twitter
+            </a>
+            ,{' '}
+            <a href="https://www.linkedin.com/in/muhammed770/" target="_blank" className="text-blue-600">
 
-          <Spline scene="https://prod.spline.design/F7ieufFriYnqDEPf/scene.splinecode" />
-        </Box>
+              LinkedIn
+            </a>
+            ,{' '}
+            You can also send me an email at{' '}
+            <a href="mailto:mail.muhammed2002@gmail.com" target="_blank" className="text-blue-600">
+              mail
+            </a>
+            .
+          </Text>
 
+
+
+        </Flex>
         {/* <Text userSelect={"none"} fontFamily={"Zen Tokyo Zoo"} height={{base:"400px",md:"550px"}} fontSize={{base:"400px",md:"550px"}} fontWeight={"light"} opacity={"40%"} color={"orange.500"} position={"absolute"} right={"-50px"} bottom={"0px"}>
           770
         </Text> */}
