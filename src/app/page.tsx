@@ -103,7 +103,7 @@ export default function Home() {
         </Flex>
         {/* <Text userSelect={"none"} fontFamily={"Zen Tokyo Zoo"} height={{base:"400px",md:"550px"}} fontSize={{base:"400px",md:"550px"}} fontWeight={"light"} opacity={"40%"} color={"orange.500"} position={"absolute"} right={"-50px"} bottom={"0px"}>
           770 
-          ksskl
+    
         </Text> */}
 
       </Flex>
