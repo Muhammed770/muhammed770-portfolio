@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: 'Muhammeds Portfolio',
   description: 'software engineer and a full-stack web developer',
 }
-//layout
+//layout set
 export default function RootLayout({
   children,
 }: {
