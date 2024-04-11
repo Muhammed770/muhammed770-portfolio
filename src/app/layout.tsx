@@ -29,7 +29,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <Navbar />
-          <div className="flex">
+          <div className="sm:flex">
 
             <div className="h-[100dvh] flex items-center content-center ml-2">
               <ProfileUI />
