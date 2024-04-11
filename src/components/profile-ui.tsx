@@ -15,7 +15,8 @@ export default function ProfileUI() {
                                         alt="Avatar"
                                         className="aspect-square object-cover object-center rounded-full border"
                                         height="200"
-                                        src="/muhammed770.jpeg"
+                                        // src="/muhammed770.jpeg"
+                                        src="/image.png"
                                         width="200"
                                     />
                                 </div>
@@ -54,7 +55,7 @@ export default function ProfileUI() {
                 <div className="grid gap-1.5 my-6 text-center">
                     <Button size="sm">Download CV</Button>
                     <Button size="sm" variant="outline" >
-                        Follow
+                        Message
                     </Button>
                 </div>
             </CardContent>
