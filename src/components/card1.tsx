@@ -53,7 +53,7 @@ export function Card1() {
         </div>
         <div className="grid gap-1.5 my-6 text-center">
           <Button size="sm">Message</Button>
-          <Button size="sm" variant="outline" className="text-black`">
+          <Button size="sm" variant="outline" className="text-black">
             Follow
           </Button>
         </div>
