@@ -1,31 +1,35 @@
 import Image from "next/image"
 import { CardTitle, CardDescription, CardHeader, CardContent, Card } from "@/components/ui/card"
+import { Button } from "./ui/button"
 
 export function Card1() {
   return (
-    <Card className="w-full max-w-sm">
-      <CardHeader className="pb-4">
+    <Card className="w-64 max-w-sm relative mt-20 bg-slate-800 text-white">
+      <CardHeader className="pb-4 mt-20">
         <div className="flex items-center space-x-4">
           <div className="flex-1">
-            <div className="grid justify-items-center">
-              <div className="flex items-center space-x-4">
-                <div className="grid w-16 h-16 items-center justify-center rounded-lg overflow-hidden bg-gray-100 dark:bg-gray-800">
+            <div className="grid justify-items-center ">
+              <div className="flex items-center space-x-4 absolute ">
+                <div className="grid w-36 h-36 items-center justify-center rounded-lg overflow-hidden bg-gray-100 dark:bg-gray-800 -mt-48 ">
                   <Image
                     alt="Avatar"
                     className="aspect-square object-cover object-center rounded-full border"
-                    height="64"
+                    height="200"
                     src="/muhammed770.jpeg"
-                    width="64"
+                    width="200"
                   />
                 </div>
               </div>
             </div>
-            <CardTitle>Muhammed Vengalath</CardTitle>
-            <CardDescription>@muhammed770.</CardDescription>
+            <div className="mt-1">
+
+              <CardTitle>Muhammed Vengalath</CardTitle>
+              <CardDescription>@muhammed770.</CardDescription>
+            </div>
           </div>
         </div>
       </CardHeader>
-      <CardContent className="grid gap-4 text-sm">
+      <CardContent className="grid gap-4 text-sm ">
         <div className="flex items-center space-x-4">
           <MailIcon className="w-4 h-4 flex-shrink-0" />
           <div className="grid gap-1.5">
@@ -47,12 +51,18 @@ export function Card1() {
             <div>San Francisco, CA</div>
           </div>
         </div>
+        <div className="grid gap-1.5 my-6 text-center">
+          <Button size="sm">Message</Button>
+          <Button size="sm" variant="outline" className="text-black`">
+            Follow
+          </Button>
+        </div>
       </CardContent>
     </Card>
   )
 }
 
-function LocateIcon(props:any) {
+function LocateIcon(props: any) {
   return (
     <svg
       {...props}
@@ -76,7 +86,7 @@ function LocateIcon(props:any) {
 }
 
 
-function MailIcon(props:any) {
+function MailIcon(props: any) {
   return (
     <svg
       {...props}
@@ -97,7 +107,7 @@ function MailIcon(props:any) {
 }
 
 
-function PhoneIcon(props:any) {
+function PhoneIcon(props: any) {
   return (
     <svg
       {...props}
@@ -117,7 +127,7 @@ function PhoneIcon(props:any) {
 }
 
 
-function UserIcon(props:any) {
+function UserIcon(props: any) {
   return (
     <svg
       {...props}
