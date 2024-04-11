@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import ProfileUI from "@/components/profile-ui";
+import { Card1 } from "@/components/card1";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <ProfileUI />
+      <Card1 />
       <body className={inter.className}>{children}</body>
     </html>
   );
