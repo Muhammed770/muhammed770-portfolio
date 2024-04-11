@@ -13,7 +13,7 @@ export default function Greeting() {
             });
         }, 3000);
         return () => clearInterval(interval);
-    }, []);
+    }, [greetings]);
     return (
         <div className="">
             <h1 className=" font-mono text-4xl" >{greeting}</h1>
