@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import ProfileUI from "@/components/profile-ui";
-import { Card1 } from "@/components/card1";
+import { ThemeProvider } from "@/components/theme-provvider";
+import { ModeToggle } from "@/components/mode-toggle";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,8 +19,23 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Card1 />
-      <body className={inter.className}>{children}</body>
+
+      <body className={inter.className}>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <div className="flex flex-wrap items-end content-end justify-end">
+            <ModeToggle />
+          </div>
+          <div className="h-[100dvh] flex items-center content-center ml-2">
+            <ProfileUI />
+          </div>
+          {children}
+        </ThemeProvider>
+      </body>
     </html>
   );
 }
