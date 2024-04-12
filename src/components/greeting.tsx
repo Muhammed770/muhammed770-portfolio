@@ -21,9 +21,9 @@ export default function Greeting() {
             <h1 className="  text-4xl" >Muhammed.</h1>
             <p className=" mt-2">I&apos;m a Computer Science Engineer and a Fullstack Developer from India.
                 <br />
-                I like to build things for the web.
+                passionate about building things for the web.
                 <br />
-                Interest in design, art and code.
+                Interested in design, art and code.
             </p>
         </div>
     );
