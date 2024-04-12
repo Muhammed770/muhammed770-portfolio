@@ -73,16 +73,16 @@ export default function ProfileUI() {
                     </div>
                 </div>
                 <div className="grid gap-1.5 my-6 text-center">
-                    <Button size="sm">
-                        <Link href={"/resume.pdf"}>
-                        Resume
-                        </Link>
-                    </Button>
-                    <Button size="sm" variant="outline" >
-                        <Link href={"mailto:mail.muhammed2002@gmail.com"}>
+                    <Link href={"/resume.pdf"} className=" ">
+                        <Button size="sm" className="w-full">
+                            Resume
+                        </Button>
+                    </Link>
+                    <Link href={"mailto:mail.muhammed2002@gmail.com"}>
+                        <Button size="sm" variant="outline" className="w-full" >
                             Mail
-                        </Link>
-                    </Button>
+                        </Button>
+                    </Link>
                 </div>
             </CardContent>
         </Card>
