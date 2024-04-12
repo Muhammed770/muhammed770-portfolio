@@ -3,7 +3,7 @@ import { projectType } from "@/types/type";
 export function ProjectShowcase() {
     return (
         <div className="mt-8">
-            <h1 className="text-4xl font-mono">Projects</h1>
+            <h1 className="text-2xl">Projects</h1>
             <HoverEffect items={projects} />
         </div>
     )
