@@ -31,7 +31,7 @@ export default function RootLayout({
           <Navbar />
           <div className="sm:flex">
 
-            <div className="h-[100dvh] flex items-center content-center ml-2">
+            <div className="sm:h-[100vh] justify-center flex items-center content-center ml-2">
               <ProfileUI />
             </div>
             {children}

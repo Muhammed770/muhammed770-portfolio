@@ -4,12 +4,12 @@ import { Button } from "./ui/button"
 
 export default function ProfileUI() {
     return (
-        <Card className="w-64 max-w-sm relative mt-12 dark:bg-slate-800 ">
+        <Card className="w-[100vw]  sm:w-64 sm:max-w-sm relative max-sm:mt-28 dark:bg-slate-800 ">
             <CardHeader className="pb-4 mt-12">
                 <div className="flex items-center space-x-4">
                     <div className="flex-1">
                         <div className="grid justify-items-center ">
-                            <div className="flex items-center space-x-4 absolute ">
+                            <div className="flex items-center space-x-4 sm:absolute ">
                                 <div className="grid w-36 h-36 items-center justify-center rounded-lg overflow-hidden bg-gray-100 dark:bg-gray-800 -mt-48 ">
                                     <Image
                                         alt="Avatar"
@@ -22,34 +22,40 @@ export default function ProfileUI() {
                                 </div>
                             </div>
                         </div>
-                        <div className="mt-1">
+                        <div className="grid max-sm:justify-items-center">
 
-                            <CardTitle>Muhammed Vengalath</CardTitle>
-                            <CardDescription>@muhammed770.</CardDescription>
+                            <div className="mt-1 ">
+
+                                <CardTitle>Muhammed Vengalath</CardTitle>
+                                <CardDescription>@muhammed770.</CardDescription>
+                            </div>
                         </div>
                     </div>
                 </div>
             </CardHeader>
             <CardContent className="grid gap-4 text-sm ">
-                <div className="flex items-center space-x-4">
-                    <MailIcon className="w-4 h-4 flex-shrink-0" />
-                    <div className="grid gap-1.5">
-                        <div className="font-semibold">Email</div>
-                        <div>email@example.com</div>
+                <div className="grid max-sm:justify-items-center">
+
+                    <div className="flex items-center space-x-4">
+                        <MailIcon className="w-4 h-4 flex-shrink-0" />
+                        <div className="grid gap-1.5">
+                            <div className="font-semibold">Email</div>
+                            <div>email@example.com</div>
+                        </div>
                     </div>
-                </div>
-                <div className="flex items-center space-x-4">
-                    <PhoneIcon className="w-4 h-4 flex-shrink-0" />
-                    <div className="grid gap-1.5">
-                        <div className="font-semibold">Phone</div>
-                        <div>+1 (234) 567-8900</div>
+                    <div className="flex items-center space-x-4">
+                        <PhoneIcon className="w-4 h-4 flex-shrink-0" />
+                        <div className="grid gap-1.5">
+                            <div className="font-semibold">Phone</div>
+                            <div>+1 (234) 567-8900</div>
+                        </div>
                     </div>
-                </div>
-                <div className="flex items-center space-x-4">
-                    <LocateIcon className="w-4 h-4 flex-shrink-0" />
-                    <div className="grid gap-1.5">
-                        <div className="font-semibold">Location</div>
-                        <div>San Francisco, CA</div>
+                    <div className="flex items-center space-x-4">
+                        <LocateIcon className="w-4 h-4 flex-shrink-0" />
+                        <div className="grid gap-1.5">
+                            <div className="font-semibold">Location</div>
+                            <div>San Francisco, CA</div>
+                        </div>
                     </div>
                 </div>
                 <div className="grid gap-1.5 my-6 text-center">
