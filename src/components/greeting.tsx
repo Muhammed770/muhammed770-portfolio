@@ -16,10 +16,10 @@ export default function Greeting() {
     }, [greetings]);
     return (
         <div className="">
-            <h1 className=" font-mono text-4xl" >{greeting}</h1>
-            <h1 className=" font-mono text-4xl" >I&apos;m</h1>
-            <h1 className=" font-mono text-4xl" >Muhammed.</h1>
-            <p className="font-mono mt-2">I&apos;m a computer science engineer and a fullstack developer from India.
+            <h1 className="  text-4xl" >{greeting}</h1>
+            <h1 className="  text-4xl" >I&apos;m</h1>
+            <h1 className="  text-4xl" >Muhammed.</h1>
+            <p className=" mt-2">I&apos;m a computer science engineer and a fullstack developer from India.
                 <br />
                 I like to build things for the web.
                 <br />

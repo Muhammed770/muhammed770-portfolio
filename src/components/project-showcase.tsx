@@ -22,7 +22,7 @@ export const projects:projectType[] =
         },
         {
             title: "JUSTICE PROTOCOL ",
-            description: `Justice Protocol for Network ( & Nation) States `,
+            description: `Justice Protocol for Network (&Nation) States `,
             link: "https://justice-protocol-prototype.vercel.app/",
             image:"/projects/justice-protocol.png",
             tags: ["Next.js", "Firebase","Typescript","tailwindCSS"]
