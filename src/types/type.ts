@@ -6,4 +6,4 @@ export type projectType = {
     tags: tagsType[];
 }
 
-type tagsType = "vercel" | "Next.js" | "Solidity" | "Typescript" | "React.js" | "Ether.js" | "IPFS" | "Firebase" | "Lens Protocol" | "WeaveDB" | "tailwindCSS" | "MongoDB";
+type tagsType = "vercel" | "Next.js" | "Solidity" | "Typescript" | "React.js" | "Ether.js" | "IPFS" | "Firebase" | "Lens Protocol" | "WeaveDB" | "tailwindCSS" | "MongoDB" | "ChakraUI" | "NextAuth" | "Django";

@@ -13,12 +13,19 @@ export function ProjectShowcase() {
 export const projects:projectType[] =
     [
         {
+            title: "FLEET MANAGEMENT SYSTEM",
+            description: `Fleet tracking and management system
+            ● Commercial project for WELKIN EMBEDDED SOLUTIONS PRIVATE LIMITED.`,
+            link: "",
+            image: "/projects/welkin.png",
+            tags: ["Next.js", "Typescript", "Django", "ChakraUI","MongoDB","NextAuth"]
+        },
+        {
             title: "JUSTICE PROTOCOL ",
-            description: `Justice Protocol for Network ( & Nation) States 
-            ● Mess marking and managing app .`,
+            description: `Justice Protocol for Network ( & Nation) States `,
             link: "https://justice-protocol-prototype.vercel.app/",
             image:"/projects/justice-protocol.png",
-            tags: ["Next.js", "Firebase","Typescript","MongoDB","tailwindCSS"]
+            tags: ["Next.js", "Firebase","Typescript","tailwindCSS"]
         },
         {
             title: "TICKGATE EVENT TICKET MANAGEMENT SYSTEM",
