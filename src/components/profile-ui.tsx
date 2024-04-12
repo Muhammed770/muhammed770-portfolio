@@ -40,7 +40,9 @@ export default function ProfileUI() {
                         <MailIcon className="w-4 h-4 flex-shrink-0" />
                         <div className="grid gap-1.5">
                             <div className="font-semibold">Email</div>
-                            <div>mail.muhammed2002@gmail.com</div>
+                            <div>
+                                <a href="mailto:mail.muhammed2002@gmail.com">mail.muhammed2002@gmail.com</a>
+                            </div>
                         </div>
                     </div>
                     <div className="flex items-center space-x-4">

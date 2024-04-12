@@ -1,5 +1,5 @@
 import { HoverEffect } from "./ui/card-hover-effect";
-
+import { projectType } from "@/types/type";
 export function ProjectShowcase() {
     return (
         <div className="mt-8">
@@ -10,22 +10,32 @@ export function ProjectShowcase() {
 }
 
 
-export const projects =
+export const projects:projectType[] =
     [
         {
-            title: "TICKGATE EVENT TICKET MANAGEMENT SYSTEM (Mini project)",
-            description: "Kerala, India Jan 2023 – current May 2023 ● Developed TickGate, an innovative event ticket management system as a university project in a team of 4 members. ● Leveraged blockchain technology and non-fungible tokens (NFTs) to create a secure and transparent ticketing solution. ● Streamlined the ticketing process by automating ticket creation, distribution, and management. ● Implemented QR code scanning functionality for easy and efficient entry verification at event venues.",
-            link: ""
+            title: "JUSTICE PROTOCOL ",
+            description: `Justice Protocol for Network ( & Nation) States 
+            ● Mess marking and managing app .`,
+            link: "https://justice-protocol-prototype.vercel.app/",
+            image:"/projects/justice-protocol.png",
+            tags: ["Next.js", "Firebase","Typescript","MongoDB","tailwindCSS"]
+        },
+        {
+            title: "TICKGATE EVENT TICKET MANAGEMENT SYSTEM",
+            description: `TickGate | University project
+            ● Decentralized NFT Token Gating System.`,
+            link: "https://tickgate-weavedb.vercel.app/",
+            image:"/projects/tickgate-app.png",
+            tags: ["Solidity", "Typescript", "vercel","Next.js","WeaveDB"]
         },
         {
             title: "IPFY COPYRIGHT AND PATENT LICENSING PLATFORM",
-            description: "IPFY | Devfolio Won Protocol labs TOP 5 ETHIndia, Bengaluru Dec 2022 ● Developed IPfy, a platform to list and license copyrighted and patented work. ● Provided a blockchain-based solution for recording IP on the platform, ensuring transparency and security. ● Allowed creators to register their work on IPfy for reliable evidence, serving as an alternative to government recognition.",
-            link: ""
+            description: `IPFY | Devfolio
+            Won Protocol labs TOP 5 ETHIndia, Bengaluru Dec 2022 
+            ● Intellectual Property Licensing Platform: Advancing Innovation without Compromising Commerce.`,
+            link: "https://devfolio.co/projects/ipfy-091a",
+            image:"/projects/ipfy.png",
+            tags: ["React.js", "Solidity", "Ether.js", "IPFS"]
         },
-        {
-            title: "MESS MASTER, Food mess management",
-            description: "MessMaster Dec 2022 Won Product-a-thon First prize ● Developed a mess marking and managing app with a team of 3. ● A complete web app for Food Mess managers saving tons of paperwork. ● It handles everything from registering new users to monthl",
-            link: ""
-        }
     ];
 
