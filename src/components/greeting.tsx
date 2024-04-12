@@ -15,15 +15,15 @@ export default function Greeting() {
         return () => clearInterval(interval);
     }, [greetings]);
     return (
-        <div className="">
+        <div className="font-mono">
             <h1 className="  text-4xl" >{greeting}</h1>
             <h1 className="  text-4xl" >I&apos;m</h1>
             <h1 className="  text-4xl" >Muhammed.</h1>
-            <p className=" mt-2">I&apos;m a computer science engineer and a fullstack developer from India.
+            <p className=" mt-2">I&apos;m a Computer Science Engineer and a Fullstack Developer from India.
                 <br />
                 I like to build things for the web.
                 <br />
-                Interest in design,art and code.
+                Interest in design, art and code.
             </p>
         </div>
     );

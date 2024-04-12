@@ -7,8 +7,8 @@ export default function Navbar() {
             <div className="flex items-end justify-end">
 
                 <Button variant={"link"}>Home</Button>
-                <Button variant={"link"}>About</Button>
-                <Button variant={"link"}>Contact</Button>
+                {/* <Button variant={"link"}>About</Button>
+                <Button variant={"link"}>Contact</Button> */}
                 <ModeToggle />
             </div>
         </nav>

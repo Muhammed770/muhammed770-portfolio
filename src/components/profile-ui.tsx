@@ -1,6 +1,8 @@
 import Image from "next/image"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./ui/card"
 import { Button } from "./ui/button"
+import { Linkedin, Twitter, X } from "lucide-react"
+import Link from "next/link"
 
 export default function ProfileUI() {
     return (
@@ -27,7 +29,7 @@ export default function ProfileUI() {
                             <div className="mt-1 ">
 
                                 <CardTitle>Muhammed Vengalath</CardTitle>
-                                <CardDescription>@muhammed770.</CardDescription>
+                                <CardDescription>@muhammed770</CardDescription>
                             </div>
                         </div>
                     </div>
@@ -59,11 +61,27 @@ export default function ProfileUI() {
                             <div>Kerala,IND</div>
                         </div>
                     </div>
+                    <div>
+                        <div className="flex gap-3 items-center ">
+                            <a href="https://www.linkedin.com/in/muhammed770/">
+                                <Linkedin />
+                            </a>
+                            <a href="https://twitter.com/0xmuhammed770" className="text-2xl ">
+                                𝕏
+                            </a>
+                        </div>
+                    </div>
                 </div>
                 <div className="grid gap-1.5 my-6 text-center">
-                    <Button size="sm">Download CV</Button>
+                    <Button size="sm">
+                        <Link href={"/resume.pdf"}>
+                        Resume
+                        </Link>
+                    </Button>
                     <Button size="sm" variant="outline" >
-                        Message
+                        <Link href={"mailto:mail.muhammed2002@gmail.com"}>
+                            Mail
+                        </Link>
                     </Button>
                 </div>
             </CardContent>
