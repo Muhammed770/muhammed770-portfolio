@@ -66,6 +66,11 @@
     }
   }
 
+    ::selection {
+      color: hsl(0, 0%, 0%);
+      background: hsl(191, 100%, 50%);
+    }
+
   @layer base {
     * {
       @apply border-border;
