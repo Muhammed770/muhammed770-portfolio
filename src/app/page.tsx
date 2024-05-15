@@ -20,7 +20,7 @@ export default function Home() {
       </div>
       <ProjectShowcase />
 
-      <BackgroundBeams className="z-[-10] max-md:hidden"/>
+      <BackgroundBeams className="z-[-10] "/>
     </div>
   );
 }
