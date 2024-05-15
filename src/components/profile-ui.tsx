@@ -6,13 +6,13 @@ import Link from "next/link"
 
 export default function ProfileUI() {
     return (
-        <Card className="  sm:w-fit  relative max-sm:mt-28 dark:bg-slate-800 ">
-            <CardHeader className="pb-4 mt-12">
+        <Card className="  sm:w-fit  relative   ">
+            <CardHeader className="pb-4">
                 <div className="flex items-center space-x-4">
                     <div className="flex-1">
                         <div className="grid justify-items-center ">
-                            <div className="flex items-center space-x-4 sm:absolute ">
-                                <div className="grid w-36 h-36 items-center justify-center rounded-lg overflow-hidden bg-gray-100 dark:bg-gray-800 -mt-48 ">
+                            <div className="flex items-center space-x-4  ">
+                                <div className="grid w-36 h-36 items-center justify-center rounded-lg overflow-hidden mb-4 ">
                                     <Image
                                         alt="Avatar"
                                         className="aspect-square object-cover object-center rounded-full border"

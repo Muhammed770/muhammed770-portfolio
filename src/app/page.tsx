@@ -14,7 +14,7 @@ export default function Home() {
       <div className="sm:flex items-center justify-around z-10">
 
         <Greeting />
-        <div className="h-[100vh] justify-center items-center content-center mx-2">
+        <div className="min-h-[100vh] justify-center items-center content-center mx-2">
           <ProfileUI />
         </div>
       </div>
