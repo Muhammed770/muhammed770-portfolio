@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import ProfileUI from "@/components/profile-ui";
 import { ThemeProvider } from "@/components/theme-provvider";
 import { ModeToggle } from "@/components/mode-toggle";
 import Navbar from "@/components/navbar";
@@ -32,11 +31,9 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <Navbar />
-          <div className="sm:flex">
+          <div className="">
 
-            <div className="sm:h-[100vh] justify-center flex items-center content-center mx-2">
-              <ProfileUI />
-            </div>
+            
             {children}
           </div>
         </ThemeProvider>

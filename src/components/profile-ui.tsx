@@ -6,7 +6,7 @@ import Link from "next/link"
 
 export default function ProfileUI() {
     return (
-        <Card className="w-[100vw]  sm:w-fit  relative max-sm:mt-28 dark:bg-slate-800 ">
+        <Card className="  sm:w-fit  relative max-sm:mt-28 dark:bg-slate-800 ">
             <CardHeader className="pb-4 mt-12">
                 <div className="flex items-center space-x-4">
                     <div className="flex-1">
