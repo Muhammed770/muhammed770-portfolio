@@ -31,11 +31,12 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <Navbar />
-          <div className="">
+          <div >
 
             
             {children}
           </div>
+          
         </ThemeProvider>
       </body>
     </html>
