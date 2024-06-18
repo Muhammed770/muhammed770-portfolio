@@ -1,8 +1,9 @@
 import Image from "next/image"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./ui/card"
 import { Button } from "./ui/button"
-import { Linkedin, Twitter, X } from "lucide-react"
+import { Linkedin } from "lucide-react"
 import Link from "next/link"
+import { GitHubLogoIcon } from "@radix-ui/react-icons"
 
 export default function ProfileUI() {
     return (
@@ -64,10 +65,13 @@ export default function ProfileUI() {
                     <div>
                         <div className="flex gap-3 items-center ">
                             <a href="https://www.linkedin.com/in/muhammed770/">
-                                <Linkedin />
+                                <Linkedin size={'1.4rem'}/>
                             </a>
                             <a href="https://twitter.com/0xmuhammed770" className="text-2xl ">
                                 𝕏
+                            </a>
+                            <a href="https://github.com/Muhammed770">
+                                <GitHubLogoIcon className="w-5 h-5"/>
                             </a>
                         </div>
                     </div>

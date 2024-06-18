@@ -6,10 +6,10 @@ export default function Navbar() {
         <nav className=" bg-transparent sticky  w-[100dvw] p-2">
             <div className="flex items-end justify-end">
 
-                <Button variant={"link"}>Home</Button>
+                {/* <Button variant={"link"}>Home</Button> */}
                 {/* <Button variant={"link"}>About</Button>
                 <Button variant={"link"}>Contact</Button> */}
-                <ModeToggle />
+                {/* <ModeToggle /> */}
             </div>
         </nav>
     )
