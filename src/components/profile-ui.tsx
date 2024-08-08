@@ -52,7 +52,7 @@ export default function ProfileUI() {
                         <PhoneIcon className="w-4 h-4 flex-shrink-0" />
                         <div className="grid gap-1.5">
                             <div className="font-semibold">Phone</div>
-                            <div>+91 8139043524</div>
+                            <div>+971 0561609171</div>
                         </div>
                     </div>
                     <div className="flex items-center space-x-4">
